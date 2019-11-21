@@ -97,7 +97,6 @@ span.menu-distance{
 .menubottom img{
   vertical-align: middle;
 }
-
 .menubottom .right li{
   padding-right: 20px;
 }
@@ -143,4 +142,75 @@ span.menu-distance{
   border-top: 2px solid #33475B;
   border-bottom: 2px solid #33475B;
   background-color: #AFEBE4;
+}
+
+/* sezione messaggio motivazionale */
+
+.motivational-container{
+  width: 100%;
+  background-color: blue;
+}
+
+.motivational{
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.motivational-pic img{
+  width: 30%;
+}
+
+/* sezione servizi */
+
+.service-top{
+  width: 100%;
+  background-color: green;
+}
+
+.hubspot{
+  width: 75%;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.hubspot:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+.hubspot .image{
+  width: 25%;
+  background-color: red;
+}
+.hubspot .options{
+  width: 50%;
+  background-color: grey;
+}
+
+.service-bottom{
+  width: 100%;
+  background-color: yellow;
+}
+
+.service-bottom-container{
+  width: 75%;
+  height: 400px;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+
+.service-bottom-container:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.service-list{
+  width: calc(90% / 3);
+  background-color: brown;
+}
+
+.service-list:nth-child(2){
+  margin: 0 5%;
 }
