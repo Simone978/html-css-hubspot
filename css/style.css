@@ -4,15 +4,52 @@
   padding: 0;
 }
 
+p, a{
+  font-family: 'Roboto', sans-serif;
+}
 /* testata */
 
 /* menu alto */
 
+.menutop-container{
+  background-color: #F4F9FD;
+}
+
+.menutop-container{
+
+}
+
 .menu{
   height: 80px;
   line-height: 80px;
-  width: 90%;
+  width: 75%;
   margin: 0 auto;
+}
+
+.menu li{
+  list-style: none;
+  display: inline;
+}
+.menu li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #33475B;
+}
+
+.menu li a.button{
+  text-decoration: none;
+  color: #FE775A;
+  padding: 10px;
+  border: 1px solid #FE775A;
+  border-radius: 5px;
+  background-color: #FAFCFE;
+}
+.menu li a.background-button{
+  text-decoration: none;
+  color: #FAFCFE;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #FE775A;
 }
 
 .menu:after{
@@ -26,14 +63,34 @@
 }
 
 .menu .left{
-  background: green;
   width: 50%;
 }
 
 .menu .right{
-  background: red;
   width: 50%;
   text-align: right;
+}
+
+
+.menutop .left span{
+  padding-right: 5px;
+}
+
+.menutop .left:first-child a{
+  padding-right: 5px;
+}
+
+span.menu-distance{
+  margin: 0 10px;
+}
+
+.menutop .right span{
+  padding-right: 20px;
+  color: #90D5E2;
+}
+
+.menutop .right li{
+  padding-right: 10px;
 }
 
 /* menu basso */
