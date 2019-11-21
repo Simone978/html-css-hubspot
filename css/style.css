@@ -5,7 +5,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-p, a, h1, h2{
+p, a, h1, h2, h3, h4{
   color: #33475B;
 }
 
@@ -148,7 +148,7 @@ span.menu-distance{
 
 .motivational-container{
   width: 100%;
-  background-color: blue;
+  background-color: #F5F8FA;
 }
 
 .motivational{
@@ -156,61 +156,78 @@ span.menu-distance{
   margin: 0 auto;
   text-align: center;
 }
-
 .motivational-pic img{
-  width: 30%;
+  width: 25%;
+  padding-top: 30px;
+}
+.motivational h2{
+  font-size: 200%;
+  padding-bottom: 30px;
+}
+.motivational p{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 30px;
 }
 
 /* sezione servizi */
 
-.service-top{
+.service{
   width: 100%;
-  background-color: green;
-}
-
-.hubspot{
-  width: 75%;
   height: 300px;
+  background-color: #F4F9FD;
+}
+
+.horizontal-service{
   margin: 0 auto;
-  background-color: #ffffff;
-}
-.hubspot:after{
-  content:"";
-  display: table;
-  clear: both;
-}
-.hubspot .image{
-  width: 25%;
-  background-color: red;
-}
-.hubspot .options{
-  width: 50%;
-  background-color: grey;
-}
-
-.service-bottom{
-  width: 100%;
-  background-color: yellow;
-}
-
-.service-bottom-container{
+  height: 350px;
   width: 75%;
-  height: 400px;
-  margin: 0 auto;
-  background-color: lightblue;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 1px 8px 13px 4px rgba(0,0,0,0.26);
 }
 
-.service-bottom-container:after{
-  content:"";
-  display: table;
-  clear: both;
+.service-header{
+  position: relative;
+  height: 300px;
+  width: 35%;
+}
+.service-header .service-container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.service-list{
-  width: calc(90% / 3);
-  background-color: brown;
+.service-container img{
+  width: 70%;
+  margin-bottom: 20px;
+}
+.service-container .background-button{
+  padding: 20px 20%;
 }
 
-.service-list:nth-child(2){
-  margin: 0 5%;
+.service-body{
+  height: 300px;
+  width: 65%;
+  padding-right: 80px;
+}
+.service-body .topside{
+  padding: 15px 15px 0 15px;
+}
+.service-body .topside h2{
+  margin: 40px 0 30px;
+  font-weight: bold;
+}
+
+hr.service-divider{
+  border: 1px solid #33475B;
+  margin-top: 40px;
+  width: 80%;
+  margin-left: 30%;
+}
+
+.service-body .bottomside{
+  padding: 0 15px;
+  margin-top: -10px;
 }
