@@ -20,6 +20,7 @@ p{
 li{
   list-style: none;
 }
+
 .white{
   color: #ffffff;
 }
@@ -514,42 +515,98 @@ hr.service-divider{
 
 /* footer */
 
+/* footer alto */
+
 .main-footer{
   width: 100%;
-  height: 500px;
   background-color: #32495B;
 }
 .main-footer .container{
   width: 75%;
-  height: 500px;
   margin: 0 auto;
 }
-.main-footer .container{
+.main-footer .container .top{
+  margin-bottom: 100px;
+}
+.main-footer .container .top:after{
   content: "";
   display: table;
   clear: both;
 }
-.main-footer .container .col{
+.main-footer .container .top .col{
   float: left;
   width: 20%;
-  margin: 20px calc(15% / 3) 0 0;
+  margin: 40px calc(15% / 3) 0 0;
 }
-.main-footer .container .col h4{
+.main-footer .container .top .col h4{
   padding-bottom: 15px;
 }
-.main-footer .container .col a{
+.main-footer .container .top .col a{
   line-height: 32px;
   font-size: 14px;
   color: #DADEE0;
 }
-.main-footer .container .col a.background-button{
+.main-footer .container .top .col a.background-button{
   background-color: #DADEE0;
   color: #32495B;
   padding: 5px;
 }
-.main-footer .container .col li ul li{
+.main-footer .container .top .col li ul li{
   display: inline;
 }
-.main-footer .container .col li ul li i{
+.main-footer .container .top .col li ul li i{
   padding-right: calc(50% / 4);
+}
+
+/* footer basso */
+.main-footer .container .bottom .menu-language{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.main-footer .container .bottom .menu-language li{
+  display: inline;
+  padding: 15px;
+}
+.main-footer .container .bottom .menu-language a{
+  color: #DADEE0;
+}
+.main-footer .container .bottom .submenu{
+  height: 100px;
+}
+
+.main-footer .container .bottom .submenu:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.main-footer .submenu .left{
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100px;
+}
+.main-footer .submenu .row{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.main-footer .submenu .left img{
+  padding-bottom: 5px;
+}
+.main-footer .submenu .left h4{
+  color: #DADEE0;
+}
+.main-footer .submenu .right{
+  float: left;
+  text-align: right;
+  height: 100px;
+  line-height: 100px;
+  width: 50%;
+}
+.main-footer .submenu .right a{
+  color: #DADEE0;
+  padding-left: 15px;
+}
+.main-footer .submenu .right li{
+  display: inline;
 }
