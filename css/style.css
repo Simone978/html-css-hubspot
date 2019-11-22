@@ -338,6 +338,8 @@ hr.service-divider{
 
 /* sezione statistiche */
 
+/* sezione statistiche titoli */
+
 .statistic{
   width: 100%;
   background-color: #00B8AB;
@@ -354,4 +356,46 @@ hr.service-divider{
 .statistic .container-title h2{
   font-size: 200%;
   margin-bottom: 30px;
+}
+
+/* sezione statistiche body */
+
+.container-body{
+  width: 100%;
+  background-color: lightblue;
+  height: 500px;
+}
+
+.container-box{
+  width: 75%;
+  margin: 0 auto;
+  background-color: lightgrey;
+  height: 500px;
+}
+
+.topbox{
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* .topbox:after{
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.format-box{
+  display: inline-block;
+  width: 180px;
+  height: 150px;
+  border: 1px solid #33475B;
+  border-top: none;
+  /* background-color: red; */
+}
+.format-box:first-child{
+  border-left: none;
+}
+.format-box:last-child{
+  border-right: none;
 }
