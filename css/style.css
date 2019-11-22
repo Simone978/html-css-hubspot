@@ -9,6 +9,14 @@ p, a, h1, h2, h3, h4{
   color: #33475B;
 }
 
+p{
+  line-height: 25px;
+}
+
+.white{
+  color: #ffffff;
+}
+
 .button{
   text-decoration: none;
   color: #FE775A;
@@ -262,7 +270,8 @@ hr.service-divider{
 
 .more-service{
   width: 100%;
-  background-color: #F4F9FD; ;
+  background-color: #F4F9FD;
+  margin-bottom: 50px;
 }
 .more-service .container{
   width: 75%;
@@ -293,7 +302,6 @@ hr.service-divider{
   margin-bottom: 30px;
 }
 .more-service .box-header p{
-  line-height: 25px;
   margin-bottom: 35px;
 }
 .more-service .box-header hr{
@@ -310,6 +318,8 @@ hr.service-divider{
 }
 .more-service .box-body li{
   list-style: none;
+}
+.more-service .box-body li p{
   line-height: 10px;
 }
 .more-service .box-body ul{
@@ -326,8 +336,22 @@ hr.service-divider{
   padding: 20px 25px;
 }
 
-.prova{
+/* sezione statistiche */
+
+.statistic{
   width: 100%;
-  background-color: green;
-  height: 300px;
+  background-color: #00B8AB;
+}
+
+.statistic .container-title{
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  padding: 40px 60px;
+}
+
+.statistic .container-title h2{
+  font-size: 200%;
+  margin-bottom: 30px;
 }
