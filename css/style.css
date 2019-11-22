@@ -168,11 +168,11 @@ span.menu-distance{
   padding-bottom: 30px;
 }
 
-/* sezione servizi */
+/* sezione orizzontale servizi */
 
 .service{
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-color: #F4F9FD;
 }
 
@@ -182,9 +182,8 @@ span.menu-distance{
   width: 75%;
   background-color: #ffffff;
   padding: 10px;
-  box-shadow: 1px 8px 13px 4px rgba(0,0,0,0.26);
+  box-shadow: 4px 2px 5px 6px rgba(0,0,0,0.19);
 }
-
 .horizontal-service{
   content: "";
   display: table;
@@ -227,7 +226,7 @@ span.menu-distance{
 }
 
 hr.service-divider{
-  border: 1px solid #33475B;
+  border: 2px solid #33475B;
   margin-top: 40px;
   width: 80%;
   margin-left: 30%;
@@ -237,9 +236,26 @@ hr.service-divider{
   padding: 0 15px;
   margin-top: -10px;
 }
+.service-body .bottomside:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.service-body .bottomside li{
+  float: left;
+  list-style: none;
+  font-size: 14px;
+  margin-top: 20px;
+  padding-right: 20px;
+}
 
-.try{
+.service-body .bottomside li i{
+  padding-right: 15px;
+  color: #FF7A59;
+}
+
+.more-service{
   width: 100%;
   height: 300px;
-  background-color: blue;
+  background-color: #F4F9FD;
 }
