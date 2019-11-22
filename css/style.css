@@ -140,7 +140,7 @@ span.menu-distance{
   margin-bottom: 50px;
 }
 .main-message .button-cta .background-button{
-  padding: 25px;
+  padding: 20px 30px;
 }
 .main-message .button-cta-text{
   font-size: 80%;
@@ -363,7 +363,7 @@ hr.service-divider{
 .container-body{
   width: 100%;
   background-color: lightblue;
-  height: 400px;
+  height: 430px;
   background-color: #00B8AB;
 }
 
@@ -427,4 +427,86 @@ hr.service-divider{
 }
 .bottom-row .format-box:last-child{
   border-right: none;
+}
+
+/* sezione pubblicità */
+
+.spot{
+  width: 100%;
+}
+.spot .container{
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* sezione testata */
+.spot-header{
+  width: 100%;
+}
+.spot-header:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.spot-header .title-left{
+  float: left;
+  width: 40%;
+  padding: 40px 120px;
+}
+.spot-header .title-right{
+  float: left;
+  width: 60%;
+}
+
+/* sezione testata sinistra */
+
+.spot-header .title-left h2{
+  font-size: 300%;
+  padding-bottom: 30px;
+}
+
+/* sezione testata destra */
+
+.spot-header .title-right{
+  padding: 70px 30px;
+}
+
+.brand-list ul:nth-child(1){
+  padding-bottom: 40px;
+}
+
+.title-right .brand-list img{
+  width: 20%;
+}
+.title-right .brand-list li{
+  list-style: none;
+  display: inline;
+  padding-left: 10px;
+}
+
+/* sezione pubblicità corpo pagina */
+.spot-body{
+}
+.spot-body:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.spot-message{
+  float: left;
+  width: 40%;
+}
+.spot-message .main-message{
+  margin-left: 0;
+  width: 100%;
+}
+
+.spot-img{
+  float: left;
+  width: 60%;
+  text-align: right;
+}
+.spot-img img{
+  width: 50%;
 }
