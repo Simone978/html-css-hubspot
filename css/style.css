@@ -25,6 +25,11 @@ li{
   color: #ffffff;
 }
 
+.short-margin{
+  width: 75%;
+  margin: 0 auto;
+}
+
 .button{
   color: #FE775A;
   padding: 10px;
@@ -59,8 +64,8 @@ li{
 .menu{
   height: 80px;
   line-height: 80px;
-  width: 75%;
-  margin: 0 auto;
+  /* width: 75%; */
+  /* margin: 0 auto; */
 }
 .menu li{
   display: inline;
@@ -169,8 +174,8 @@ span.menu-distance{
 }
 
 .motivational{
-  width: 75%;
-  margin: 0 auto;
+  /* width: 75%; */
+  /* margin: 0 auto; */
   text-align: center;
 }
 .motivational-pic img{
@@ -196,9 +201,9 @@ span.menu-distance{
 }
 
 .horizontal-service{
-  margin: 0 auto;
+  /* margin: 0 auto; */
   height: 350px;
-  width: 75%;
+  /* width: 75%; */
 }
 .horizontal-service{
   content: "";
@@ -277,8 +282,8 @@ hr.service-divider{
   margin-bottom: 50px;
 }
 .more-service .container{
-  width: 75%;
-  margin: 0 auto;
+  /* width: 75%; */
+  /* margin: 0 auto; */
 }
 .more-service .container:after{
   content: "";
@@ -348,8 +353,8 @@ hr.service-divider{
 }
 
 .statistic .container-title{
-  width: 75%;
-  margin: 0 auto;
+  /* width: 75%; */
+  /* margin: 0 auto; */
   text-align: center;
   color: #ffffff;
   padding: 40px 60px;
@@ -370,9 +375,8 @@ hr.service-divider{
 }
 
 .container-box{
-  width: 75%;
-  /* height: 500px; */
-  margin: 0 auto;
+  /* width: 75%; */
+  /* margin: 0 auto; */
 }
 
 .top-row{
@@ -390,7 +394,6 @@ hr.service-divider{
 .format-box{
   position: relative;
   float: left;
-  margin: 0 auto;
   width: 25%;
   height: 150px;
 }
@@ -438,11 +441,11 @@ hr.service-divider{
   margin-bottom: 40px;
 }
 .spot .container{
-  width: 75%;
-  margin: 0 auto;
+  /* width: 75%; */
+  /* margin: 0 auto; */
 }
 
-/* sezione testata */
+/* sezione testata pubblicità */
 .spot-header{
   width: 100%;
 }
@@ -461,14 +464,14 @@ hr.service-divider{
   width: 60%;
 }
 
-/* sezione testata sinistra */
+/* sezione testata sinistra pubblicità */
 
 .spot-header .title-left h2{
   font-size: 300%;
   padding-bottom: 30px;
 }
 
-/* sezione testata destra */
+/* sezione testata destra pubblicità */
 
 .spot-header .title-right{
   padding: 70px 30px;
@@ -522,8 +525,8 @@ hr.service-divider{
   background-color: #32495B;
 }
 .main-footer .container{
-  width: 75%;
-  margin: 0 auto;
+  /* width: 75%; */
+  /* margin: 0 auto; */
 }
 .main-footer .container .top{
   margin-bottom: 100px;
