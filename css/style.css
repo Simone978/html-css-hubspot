@@ -363,39 +363,68 @@ hr.service-divider{
 .container-body{
   width: 100%;
   background-color: lightblue;
-  height: 500px;
+  height: 400px;
+  background-color: #00B8AB;
 }
 
 .container-box{
   width: 75%;
+  /* height: 500px; */
   margin: 0 auto;
-  background-color: lightgrey;
-  height: 500px;
 }
 
-.topbox{
+.top-row{
   width: 100%;
-  text-align: center;
   padding-top: 50px;
+  margin: 0;
 }
 
-/* .topbox:after{
+.top-row:after{
   content: "";
   display: table;
   clear: both;
-} */
+}
 
 .format-box{
-  display: inline-block;
-  width: 180px;
+  position: relative;
+  float: left;
+  margin: 0 auto;
+  width: 25%;
   height: 150px;
-  border: 1px solid #33475B;
+}
+
+.format-box h2{
+  display: inline-block;
+  font-size: 250%;
+}
+
+.format-box p{
+  font-size: 12px;
+}
+
+.format-box .box{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.top-row .format-box{
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
   border-top: none;
-  /* background-color: red; */
 }
-.format-box:first-child{
-  border-left: none;
+.top-row .format-box:last-child{
+  border-right: none;
 }
-.format-box:last-child{
+
+.bottom-row{
+  width: 100%;
+  margin: 0;
+}
+.bottom-row .format-box{
+  border-right: 1px solid #ffffff;
+}
+.bottom-row .format-box:last-child{
   border-right: none;
 }
