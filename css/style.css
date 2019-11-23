@@ -19,6 +19,11 @@ p{
 
 li{
   list-style: none;
+  display: inline;
+}
+
+.float-left{
+  float:left;
 }
 
 .white{
@@ -52,6 +57,10 @@ li{
   box-shadow: 4px 2px 5px 6px rgba(0,0,0,0.19);
 }
 
+.service-format:hover{
+  box-shadow: 4px 2px 5px 6px rgba(0,0,0,0.30);
+}
+
 /* testata */
 
 /* menu alto */
@@ -64,11 +73,6 @@ li{
 .menu{
   height: 80px;
   line-height: 80px;
-  /* width: 75%; */
-  /* margin: 0 auto; */
-}
-.menu li{
-  display: inline;
 }
 .menu li a{
   font-size: 18px;
@@ -86,11 +90,9 @@ li{
   clear: both;
 }
 .menu .left{
-  float: left;
   width: 50%;
 }
 .menu .right{
-  float: left;
   width: 50%;
   text-align: right;
 }
@@ -174,8 +176,6 @@ span.menu-distance{
 }
 
 .motivational{
-  /* width: 75%; */
-  /* margin: 0 auto; */
   text-align: center;
 }
 .motivational-pic img{
@@ -201,18 +201,15 @@ span.menu-distance{
 }
 
 .horizontal-service{
-  /* margin: 0 auto; */
   height: 350px;
-  /* width: 75%; */
 }
-.horizontal-service{
+.horizontal-service:after{
   content: "";
   display: table;
   clear: both;
 }
 
 .service-header{
-  float: left;
   position: relative;
   height: 300px;
   width: 35%;
@@ -233,7 +230,6 @@ span.menu-distance{
 }
 
 .service-body{
-  float: left;
   height: 300px;
   width: 65%;
   padding-right: 80px;
@@ -281,18 +277,20 @@ hr.service-divider{
   background-color: #F4F9FD;
   margin-bottom: 50px;
 }
-.more-service .container{
-  /* width: 75%; */
-  /* margin: 0 auto; */
-}
 .more-service .container:after{
   content: "";
   display: table;
   clear: both;
 }
 .more-service .box{
-  float: left;
   width: calc(90% / 3);
+}
+.more-service .box-img{
+  height: 150px;
+  margin: 0 auto;
+}
+.more-service .box-img img{
+  height: 120px;
 }
 .more-service .box:nth-child(2){
   margin: 0 5%;
@@ -325,6 +323,7 @@ hr.service-divider{
   margin-bottom: 20px;
 }
 .more-service .box-body li{
+  display: block;
 }
 .more-service .box-body li p{
   line-height: 10px;
@@ -353,8 +352,6 @@ hr.service-divider{
 }
 
 .statistic .container-title{
-  /* width: 75%; */
-  /* margin: 0 auto; */
   text-align: center;
   color: #ffffff;
   padding: 40px 60px;
@@ -372,11 +369,6 @@ hr.service-divider{
   background-color: lightblue;
   height: 430px;
   background-color: #00B8AB;
-}
-
-.container-box{
-  /* width: 75%; */
-  /* margin: 0 auto; */
 }
 
 .top-row{
@@ -440,12 +432,9 @@ hr.service-divider{
   width: 100%;
   margin-bottom: 40px;
 }
-.spot .container{
-  /* width: 75%; */
-  /* margin: 0 auto; */
-}
 
 /* sezione testata pubblicità */
+
 .spot-header{
   width: 100%;
 }
@@ -455,13 +444,18 @@ hr.service-divider{
   clear: both;
 }
 .spot-header .title-left{
-  float: left;
   width: 40%;
   padding: 40px 120px;
 }
 .spot-header .title-right{
-  float: left;
   width: 60%;
+    padding: 50px 30px;
+}
+.spot-header .brand-list{
+  height: 40px;
+}
+.spot-header .brand-list li{
+  vertical-align: middle;
 }
 
 /* sezione testata sinistra pubblicità */
@@ -473,9 +467,6 @@ hr.service-divider{
 
 /* sezione testata destra pubblicità */
 
-.spot-header .title-right{
-  padding: 70px 30px;
-}
 
 .brand-list ul:nth-child(1){
   padding-bottom: 40px;
@@ -485,7 +476,6 @@ hr.service-divider{
   width: 20%;
 }
 .title-right .brand-list li{
-  display: inline;
   padding-left: 10px;
 }
 
@@ -499,7 +489,6 @@ hr.service-divider{
 }
 
 .spot-message{
-  float: left;
   width: 40%;
 }
 .spot-message .main-message{
@@ -508,7 +497,6 @@ hr.service-divider{
 }
 
 .spot-img{
-  float: left;
   width: 60%;
   text-align: right;
 }
@@ -523,10 +511,6 @@ hr.service-divider{
 .main-footer{
   width: 100%;
   background-color: #32495B;
-}
-.main-footer .container{
-  /* width: 75%; */
-  /* margin: 0 auto; */
 }
 .main-footer .container .top{
   margin-bottom: 100px;
@@ -543,6 +527,9 @@ hr.service-divider{
 }
 .main-footer .container .top .col h4{
   padding-bottom: 15px;
+}
+.main-footer .container .top .col li{
+  display: block;
 }
 .main-footer .container .top .col a{
   line-height: 32px;
@@ -562,6 +549,7 @@ hr.service-divider{
 }
 
 /* footer basso */
+
 .main-footer .container .bottom .menu-language{
   text-align: center;
   padding-bottom: 15px;
@@ -584,7 +572,6 @@ hr.service-divider{
 }
 .main-footer .submenu .left{
   position: relative;
-  float: left;
   width: 50%;
   height: 100px;
 }
@@ -600,7 +587,6 @@ hr.service-divider{
   color: #DADEE0;
 }
 .main-footer .submenu .right{
-  float: left;
   text-align: right;
   height: 100px;
   line-height: 100px;
@@ -609,7 +595,4 @@ hr.service-divider{
 .main-footer .submenu .right a{
   color: #DADEE0;
   padding-left: 15px;
-}
-.main-footer .submenu .right li{
-  display: inline;
 }
