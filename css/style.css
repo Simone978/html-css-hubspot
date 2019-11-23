@@ -1,3 +1,7 @@
+
+
+/* Regole generali */
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -24,6 +28,12 @@ li{
 
 .float-left{
   float:left;
+}
+
+.clearfix:after{
+  content:"";
+  display: table;
+  clear: both;
 }
 
 .white{
@@ -83,11 +93,6 @@ li{
 }
 .menu li a.background-button{
   color: #FAFCFE;
-}
-.menu:after{
-  content: "";
-  display: table;
-  clear: both;
 }
 .menu .left{
   width: 50%;
@@ -203,11 +208,6 @@ span.menu-distance{
 .horizontal-service{
   height: 350px;
 }
-.horizontal-service:after{
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .service-header{
   position: relative;
@@ -253,18 +253,12 @@ hr.service-divider{
   padding: 0 15px;
   margin-top: -12px;
 }
-.service-body .bottomside:after{
-  content: "";
-  display: table;
-  clear: both;
-}
 .service-body .bottomside li{
   float: left;
   font-size: 14px;
   margin-top: 20px;
   padding-right: 20px;
 }
-
 .service-body .bottomside li i{
   padding-right: 15px;
   color: #FF7A59;
@@ -276,11 +270,6 @@ hr.service-divider{
   width: 100%;
   background-color: #F4F9FD;
   margin-bottom: 50px;
-}
-.more-service .container:after{
-  content: "";
-  display: table;
-  clear: both;
 }
 .more-service .box{
   width: calc(90% / 3);
@@ -377,12 +366,6 @@ hr.service-divider{
   margin: 0;
 }
 
-.top-row:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .format-box{
   position: relative;
   float: left;
@@ -438,11 +421,6 @@ hr.service-divider{
 .spot-header{
   width: 100%;
 }
-.spot-header:after{
-  content: "";
-  display: table;
-  clear: both;
-}
 .spot-header .title-left{
   width: 40%;
   padding: 40px 120px;
@@ -482,11 +460,6 @@ hr.service-divider{
 /* sezione pubblicità corpo pagina */
 .spot-body{
 }
-.spot-body:after{
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .spot-message{
   width: 40%;
@@ -515,15 +488,10 @@ hr.service-divider{
 .main-footer .container .top{
   margin-bottom: 100px;
 }
-.main-footer .container .top:after{
-  content: "";
-  display: table;
-  clear: both;
-}
 .main-footer .container .top .col{
   float: left;
   width: 20%;
-  margin: 40px calc(15% / 3) 0 0;
+  margin: 40px 5% 0 0;
 }
 .main-footer .container .top .col h4{
   padding-bottom: 15px;
@@ -563,12 +531,6 @@ hr.service-divider{
 }
 .main-footer .container .bottom .submenu{
   height: 100px;
-}
-
-.main-footer .container .bottom .submenu:after{
-  content: "";
-  display: table;
-  clear: both;
 }
 .main-footer .submenu .left{
   position: relative;
