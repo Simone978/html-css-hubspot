@@ -59,6 +59,9 @@ li{
   border-radius: 5px;
   background-color: #FE775A;
 }
+.background-button:hover{
+  background-color: #FF8F73;
+}
 
 .service-format{
   background-color: #ffffff;
@@ -500,6 +503,9 @@ hr.service-divider{
 .main-footer .container .top .col li{
   display: block;
 }
+.main-footer .container .top .col a:hover{
+  color: #67D1DE;
+}
 .main-footer .container .top .col a{
   line-height: 32px;
   font-size: 14px;
@@ -519,6 +525,9 @@ hr.service-divider{
 
 /* footer basso */
 
+.main-footer .container .bottom li a:hover{
+  color: #67D1DE;
+}
 .main-footer .container .bottom .menu-language{
   text-align: center;
   padding-bottom: 15px;
