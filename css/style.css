@@ -52,6 +52,9 @@ li{
   border-radius: 5px;
   background-color: #FAFCFE;
 }
+.button:hover{
+  background-color: #FFF8F6;
+}
 
 .background-button{
   color: #FAFCFE;
